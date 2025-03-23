@@ -1,5 +1,5 @@
 import React from "react";
-import "../styles/NOte.css"
+import "../styles/Note.css"
 
 function Note({note, onDelete}){
     const formatedDate = new Date(note.created_at).toLocaleDateString("en-US")
